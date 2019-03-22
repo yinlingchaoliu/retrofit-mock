@@ -1,0 +1,20 @@
+apply plugin: 'java-library'
+apply plugin: 'android-aspectjx'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+}
+
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+    }
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
