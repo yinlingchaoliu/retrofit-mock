@@ -1,1 +1,2 @@
 include ':mock'
+rootProject.name='retrofit-mock'
